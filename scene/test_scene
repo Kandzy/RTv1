@@ -1,0 +1,74 @@
+[
+    light: {
+        size: 1,
+        position: {
+            x: 0
+            y: 0
+            z: 0
+        }
+    },
+    camera: {
+        direction: {
+            x: 1
+            y: 0
+            z: 0
+        },
+        position: {
+            x: 0
+            y: 0
+            z: 0
+        }
+    }
+]
+<
+    sphere: {
+        radius: 10,
+        color: {
+            255,0,0
+        },
+        position: {
+            x: 101
+            y: 102
+            z: 103
+        },
+    }
+>
+<
+    cylinder: {
+        radius: 20,
+        height: 100,
+        color: {
+            0,255,0
+        },
+        position: {
+            x: 201
+            y: 202
+            z: 203
+        },
+        rotation: {
+            rot_x: 1
+            rot_y: 2
+            rot_z: 3
+        },
+    }
+>
+<
+    cone: {
+        radius: 30,
+        height: 100,
+        incline: 60,
+        color: {
+            0,255,255
+        },
+        position: {
+            x: 211
+            y: 212
+            z: 213
+        },
+        rotation: {
+            rot_x: 4
+            rot_y: 5
+            rot_z: 6
+        },
+    }
+>
